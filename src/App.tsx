@@ -1,10 +1,13 @@
+import TasksTable from "./components/TaskTable";
+
+//styles
+import 'primeicons/primeicons.css';
 import "primereact/resources/themes/lara-light-cyan/theme.css";
-import "./App.css";
 
 function App() {
   return (
     <>
-      <p>Test</p>
+    <TasksTable />
     </>
   );
 }

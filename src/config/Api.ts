@@ -1,3 +1,3 @@
 export const Api = {
-    URL: "http://localhost:8000",
+    URL: import.meta.env.API_URL as string || "http://localhost:8000/api",
 }
